@@ -1,18 +1,11 @@
 <template>
 
 	<div class="e-landing-page">
-
-		<!-- <div :class="{ 'e-nav-bar': true, 'e-nav-fixed': sp > (wh - 90) }">
-			BRUH FIXED NAV, FIXED NAV
-		</div> -->
-
 		<div class="e-1-container e-gradient">
 
 			<div class="e-bg stars e-grain-animation"></div>
 
 			<img :src="require('@/assets/landscape-1.png')" class="e-abs-bg">
-
-			<!-- <img :src="require('@/assets/earth-logo.png')" class="e-abs-earth"> -->
 
 			<v-parallax
 			:src="require('@/assets/earth-logo.png')"
